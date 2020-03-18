@@ -1,40 +1,3 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Classic - Slider Revolution</title>
-    <meta name="description" content="Slider Revolution Example" />
-    <meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
-    <meta name="author" content="ThemePunch" />
-
-    
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-    
-    <!-- REVOLUTION JS FILES -->
-    <script type="text/javascript" src="assets/rev/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="assets/rev/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.video.min.js"></script>
-</head>
-
-<body>
 
     <div class="rev_slider_wrapper fullwidthbanner-container">
 
@@ -243,8 +206,6 @@
     </script>
 
 
-    </article>
-    </section>
 
     <div class="clearfix"></div>
 

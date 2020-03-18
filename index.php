@@ -39,7 +39,21 @@
     type="text/css" media="all" />
     <link rel="stylesheet" type="text/css" href="assets/rev/assets/css/noneed.css"> -->
 
-
+    <!-- Rev slider includes -->
+    <!-- REVOLUTION JS FILES -->
+    <script type="text/javascript" src="assets/rev/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="assets/rev/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="assets/rev/revolution/js/extensions/revolution.extension.video.min.js"></script>
 
 
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Roboto&display=swap" rel="stylesheet">
@@ -50,13 +64,16 @@
 </head>
 <body>
 
-<?php include("nav.php"); ?>
-<?php include("slider.php"); ?>
-<?php include("services_short.php"); ?>
-<?php include("engagements.php"); ?>
-<?php include("testimonials.php"); ?>
-<?php include("footer.php"); ?>
+    <?php include("nav.php"); ?>
+    <?php include("slider.php"); ?>
+    <?php include("services_short.php"); ?>
+    <?php include("engagements.php"); ?>
+    <?php include("testimonials.php"); ?>
+    <?php include("footer.php"); ?>
 
-    
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+
 </body>
 </html>
