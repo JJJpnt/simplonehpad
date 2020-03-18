@@ -1,0 +1,373 @@
+:root {
+    /* JJJ color vars */
+    --var-dark-blue: #153D7C;
+    --var-dark-blue-rgb: 21,61,124;
+    --var-light-blue: #EFF1F6;
+    --var-light-grey: #F3F1ED;
+    --var-danger: #F2703D;
+}
+
+/* JJJ general classes */
+
+.col-dark-blue {
+    color: var(--var-dark-blue);
+}
+
+.col-light-grey {
+    color: var(--var-light-grey);
+}
+
+.col-light-blue {
+    color: var(--var-light-blue);
+}
+
+.col-danger {
+    color: var(--var-danger);
+}
+
+.col-white {
+    color: white;
+}
+
+.bg-dark-blue {
+    background-color: var(--var-dark-blue);
+}
+
+.bg-light-grey {
+    background-color: var(--var-light-grey);
+}
+
+.bg-light-blue {
+    background-color: var(--var-light-blue);
+}
+
+.bg-danger {
+    background-color: var(--var-danger);
+}
+
+.sserif {
+    font-family: 'Noto Serif', serif;
+}
+
+.serif {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Document styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.35rem;
+}
+
+h3 {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Simplon EHPAD est un groupe fondé en 2027 par Romain P., pour répondre au problème des geeks grabataires ne trouvant pas de solutions d’hébergement appropriées ou se retrouvant ostracisés des EHPADS pour humains normaux, largement non-adaptés à leurs besoins très spécifiques. */
+
+
+
+.services-short {
+    font-size: 0.8em;
+}
+
+.services-short i {
+    margin-bottom: 0.1em;
+}
+
+
+
+/* Rectangle 16 */
+.photo-frame {
+    position: absolute;
+    width: 192px;
+    height: 218px;
+    left: -60px;
+    top: -3.33px;
+    
+    background: #F2F2F2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transform: rotate(-13.76deg);
+}
+
+/* Rectangle 16 */
+
+.photo-frame {
+    position: absolute;
+    width: 192px;
+    height: 218px;
+    left: -60px;
+    top: -3.33px;
+    
+    background: #F2F2F2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transform: rotate(-13.76deg);
+}
+
+/* Testimonies frame bg etc blah blah blah */
+
+.testimony-frame {
+    position: absolute;
+    width: 794px;
+    height: 322px;
+    left: 101px;
+    top: 49px;
+    
+    background: rgba(207, 215, 230, 0.75);
+    /* dark-blue */
+    border: 2px solid #394860;
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 5px;
+}
+
+
+.tp-topslider p {
+    background-color: rgba(21, 61, 124, 0.5); 
+    border-radius: 2em; 
+    color: white;
+    font-size: 5em;
+}
+
+
+.testimonials {
+    background: url("../img/testimonials_bg.jpg");
+    /* height: 592px; */
+
+}
+
+.testimonials-item {
+    /* Rectangle 8 */
+
+    /* width: 500px; */
+    /* height: 322px; */
+    /* width: 100%; */
+    /* height: 100%; */
+
+    /* left: 101px; */
+    /* top: 49px; */
+    /* bottom: 55px; */
+    /* right: 5px; */
+
+    /* margin-left: 101px; */
+    height: fit-content;
+    /* height: 150px; */
+    margin: 49px 45px 0 101px;
+
+    background: rgba(207, 215, 230, 0.75);
+    /* dark-blue */
+    border: 2px solid #394860;
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 5px;
+}
+
+
+.testimonials-quote {
+    
+    /* position: relative; */
+    /* display: block; */
+    margin-left: 180px;
+    /* right: 20px; */
+    margin-top: 150px;
+    /* bottom: -45.68%; */
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* dark-blue */
+    color: #394860;
+    
+}
+
+
+.testimonials-photoframe {
+    /* Rectangle 16 */
+
+    position: absolute;
+    width: 192px;
+    height: 218px;
+    margin-left: -70px;
+    margin-top: -20px;
+    /* left: 40px; */
+    /* top: 20px; */
+    
+    background: #F2F2F2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transform: rotate(-13.76deg);
+    
+    z-index: 666;
+}
+
+.testimonials-item .testimonials-item-caption hr {
+    /* hr */
+
+    position: relative;
+    top: -0.5em;
+    left: -75px;
+    right: 75%; 
+    /* top: 3.5em; */
+    /* bottom: 43.21%; */
+    z-index: 1;
+    
+    text-align: left;
+
+    /* dark-blue */
+    border: 1px solid #394860;
+}
+
+
+.testimonials-photo {
+    /* mathieu 1 */
+    
+    position: relative;
+    left: 5%;
+    /* right: 90.57%; */
+    top: 5%;
+    /* bottom: 26.24%; */
+    width: 90%;
+    height: 90%;
+    
+    background: url(../img/romain.jpg);
+    /* transform: rotate(-13.76deg); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.testimonials-item-caption {
+    position: absolute;
+    left: 133px;
+    top: 0.95em;
+
+}
+
+.testimonials-item .testimonials-item-caption h4 {
+    /* Mathieu B.  Résident Délégué à Simplon EHPAD Charleville depuis 2029  */
+    
+    
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    /* line-height: 33px; */
+    line-height: 1em;
+    
+    color: #394860;
+}
+
+.testimonials-item .testimonials-item-caption span {
+    /* Mathieu B.  Résident Délégué à Simplon EHPAD Charleville depuis 2029  */
+    
+    /* position: absolute; */
+    /* left: 140px; */
+    /* top: 2.2em; */
+    
+
+    position: relative;
+    left: 12px;
+
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 0.75em;
+    
+    color: #394860;
+}
+
+.engagements div .founder img {
+    
+    /* position: absolute;
+    left: 5%;
+    right: 70.42%; */
+    width: 175px;
+    height: 175px;
+    /* top: 8.33%;
+    bottom: 46.97%; */
+    
+    /* background: url(../img/romain.jpg); */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    
+    
+}
+
+.engagements h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.engagements h4 b {
+    font-weight: 800;
+}
+
+.engagements hr {
+    border: 1px solid var(--var-dark-blue);
+    width: 50%;
+    left:0px;
+    text-align:left;
+    margin-left:0;
+}
+
+
+
+/* Footer Classes */
+
+.separator {
+
+    display: inline;
+    padding: 0px 25px 0px 25px;
+    margin: 15px;
+    bottom: 5px;
+    /* left: 632px; */
+    /* bottom: 382px; */
+    
+    /* white */
+    background: #FFFFFF;
+    /* opacity: 0.25; */
+    border-radius: 7px;
+    
+}
+
+select {
+    margin-top: 5px;
+    width: 80%;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+  .footer3 {
+    /* position: absolute; */
+    /* width: 452px;
+    height: 330px;
+    left: 974px;
+    bottom: 194px; */
+
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.2rem;
+
+    /* dark-blue */
+    color: #394860;
+
+  }
