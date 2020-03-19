@@ -414,4 +414,22 @@ select {
   } */
 
 
-  
+.gallery {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+/* .gallery img {
+        display: block;
+        max-width:230px;
+        max-height:95px;
+        width: auto;
+        height: auto;
+} */
+
+/* @media (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 1.5em;
+        margin-top: 4px;
+    }
+} */
